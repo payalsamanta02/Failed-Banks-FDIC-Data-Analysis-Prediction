@@ -4,6 +4,19 @@ Failed US Banks FDIC Data Analysis and Prediction
 
 This repository contains code for an Exploratory Data Analysis (EDA) of failed bank data from the FDIC.
 
+**Project Description: Predicting U.S. Bank Failures Using FDIC Financial Ratios**  
+
+In this project, I developed a predictive model to identify potential bank failures within 180 days using historical financial ratios from the FDIC database. The dataset included 796 features and 656,438 training examples spanning the past 90 quarters. The binary target label classified banks as likely to fail or not, with a positive instance indicating failure within 180 days.  
+
+The 180-day prediction window was chosen to account for the FDIC's data reporting lag of 60–90 days and optimize model performance. Precision was prioritized over recall to minimize false positives, crucial for high-stakes decision-making in banking.  
+
+Key highlights include:  
+- **Model Development:** Applied machine learning techniques to train and evaluate models, with hyperparameters tuned using HyperOpt for optimal performance.  
+- **Performance Metrics:** The best model achieved an AUC of 0.636, an F1 score of 0.413, and a precision of 0.83 on the test set, demonstrating its reliability in identifying high-risk banks.  
+- **Feature Engineering:** Leveraged 796 financial ratios and historical data to identify patterns indicative of bank instability.  
+
+This project provides valuable insights into financial risk assessment, supporting regulatory bodies and stakeholders in proactive decision-making.
+
 ### Getting Started
 
 1.  **Prerequisites:**
